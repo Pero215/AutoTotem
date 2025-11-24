@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "autototem",
+  "version": "${version}",
+  "name": "Auto Totem",
+  "description": "An essential utility mod that automatically swaps a Totem of Undying into your off-hand based on health or a customizable keybind.",
+  "authors": [
+    "Noty"
+  ],
+  "license": "MIT",
+  "icon": "assets/autototem/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.noty.auto.AutoTotem"
+    ],
+    "client": [
+      "com.noty.auto.client.AutoTotemClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
